@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather+Sans:wght@300&display=swap');
 
 :root {
 	--gradient: linear-gradient(
@@ -35,5 +35,5 @@ button {
 }
 
 h1 {
-	font-family: 'Carter One', cursive;
+	font-family: 'Merriweather Sans', sans-serif;
 }
