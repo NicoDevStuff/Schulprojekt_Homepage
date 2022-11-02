@@ -15,7 +15,7 @@
 body {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background: white;
+	background: grey;
 	background-image: var(--gradient);
 	background-size: 400%;
 	animation: backgroundAnimation 5s infinite alternate;
@@ -28,12 +28,12 @@ body {
 }
 
 button {
-	background-color: #DCDCDC70;
+	background-color: #666666;
 	border-radius: 25px;
 	width: 100px;
 	text-align: center;
 }
 
 h1 {
-	font-family: 'Carter One', cursive;
+	font-family: 'Comic Sans', cursive;
 }
