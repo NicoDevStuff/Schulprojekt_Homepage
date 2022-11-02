@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+:root {
+	--gradient: linear-gradient(
+		45deg,
+		#845ec2,
+		#d65db1,
+		#ff6f91,
+		#ff9671,
+		#ffc75f,
+		#f9f871
+	);
+}
+
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: white;
+	background-image: var(--gradient);
+	background-size: 400%;
+	animation: backgroundAnimation 5s infinite alternate;
+	text-align: center;
+}
+
+@keyframes backgroundAnimation {
+	0% { background-position: left; }
+	100% { background-position: right; }
+}
+
+button {
+	background-color: #DCDCDC70;
+	border-radius: 25px;
+	width: 100px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Carter One', cursive;
+}
