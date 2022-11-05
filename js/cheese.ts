@@ -17,5 +17,9 @@ function resetCheese(): void {
 
 function getCheeseSize(): void {
 	let p = document.getElementById("cheese");
-	console.log(p.textContent.length / 4);
+	let count = p.textContent.length / 4;
+	
+	let cheesebutton = document.getElementById("cheesebutton");
+	cheesebutton.textContent = "Get the cheese count: " + count;
+
 }

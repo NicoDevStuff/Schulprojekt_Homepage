@@ -3,7 +3,9 @@
 
 :root {
 	--gradient: linear-gradient(
-		45deg,
+		30deg,
+		#115ec2,
+		#715ec2,
 		#845ec2,
 		#d65db1,
 		#ff6f91,
@@ -12,21 +14,26 @@
 		#f9f871
 	);
 }
+
 #Heading {
 	font-size: 30px;
+	animation-duration: 1s;
+	animation-name: slideinAnim;
+	animation-name: bounce;
 }
+
 html {
 	height: 100%;
 	background-image: var(--gradient);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: 400%;
-	animation: backgroundAnimation 5s infinite alternate;
+	animation: backgroundAnimation 7s infinite alternate;
 	text-align: center;
 }
 
-body {
-	
+h1 {
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 @keyframes backgroundAnimation {
@@ -34,6 +41,14 @@ body {
 	100% { background-position: right; }
 }
 
-h1 {
-	font-family: 'Merriweather Sans', sans-serif;
+@keyframes slideinAnim {
+	0% {
+		margin-left: 100%;
+		width: 300%
+	}
+
+	100% {
+		margin-left: 0%;
+		width: 100;
+	}
 }
