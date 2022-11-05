@@ -11,3 +11,7 @@ function resetCheese() {
     let p = document.getElementById("cheese");
     p.textContent = cheese.toString();
 }
+function getCheeseSize() {
+    let p = document.getElementById("cheese");
+    console.log(p.textContent.length / 4);
+}

@@ -11,6 +11,11 @@ function setCheese(): void {
 }
 
 function resetCheese(): void {
-	let p = document.getElementById("cheese")
+	let p = document.getElementById("cheese");
 	p.textContent = cheese.toString();
+}
+
+function getCheeseSize(): void {
+	let p = document.getElementById("cheese");
+	console.log(p.textContent.length / 4);
 }

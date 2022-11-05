@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather+Sans:wght@300&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 :root {
 	--gradient: linear-gradient(
@@ -12,26 +13,23 @@
 	);
 }
 
-body {
+html {
+	height: 100%;
+	background-image: var(--gradient);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background: white;
-	background-image: var(--gradient);
 	background-size: 400%;
 	animation: backgroundAnimation 5s infinite alternate;
 	text-align: center;
 }
 
+body {
+	
+}
+
 @keyframes backgroundAnimation {
 	0% { background-position: left; }
 	100% { background-position: right; }
-}
-
-button {
-	background-color: #DCDCDC70;
-	border-radius: 25px;
-	width: 100px;
-	text-align: center;
 }
 
 h1 {
