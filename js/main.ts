@@ -3,8 +3,7 @@ let button = document.getElementById("clickerButton");
 button.textContent = "Count: " + count;
 
 function doSomething(): void {
-	alert("🧀🧀🧀🧀🧀🧀🧀");
-	document.location.href = "https://www.youtube.com/watch?v=a3tDlT-Owys"
+	document.location.href = "https://www.youtube.com/watch?v=kWrdEbBcsE4"
 }
 
 function incrementCount(): void {
