@@ -1,10 +1,16 @@
 #mainpage {
-	
+
 }
 
 
 p {
-	color: black;
+        color: black;
 }
 
-
+table, th, td {
+      border:2px solid black;
+}
+#noce {
+      width:50%;
+      height:50%;
+}

@@ -1,4 +1,4 @@
-let cheese = "🧀";
+let cheese = "cheese \n";
 function setCheese() {
     let p = document.getElementById("cheese");
     let i = 0;
@@ -13,7 +13,7 @@ function resetCheese() {
 }
 function getCheeseSize() {
     let p = document.getElementById("cheese");
-    let count = p.textContent.length / 4;
+    let count = p.textContent.length / cheese.length;
     let cheesebutton = document.getElementById("cheesebutton");
     cheesebutton.textContent = "Get the cheese count: " + count;
 }

@@ -1,12 +1,11 @@
 #upperbuttons {
-	max-width: 100%;
-	height: 50px;
-	/* background-color: gray; */
+        max-width: 100%;
+        height: 50px;
+        /* background-color: gray; */
 }
 
 #mainpage {
-	height: 300px;
-	margin: 0 auto;
+        height: 300px;
+        margin: 0 auto;
 }
-
 

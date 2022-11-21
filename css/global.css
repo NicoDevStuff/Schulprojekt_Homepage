@@ -1,54 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather+Sans:wght@300&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Secular+One&display=swap');
 
 :root {
-	--gradient: linear-gradient(
-		30deg,
-		#115ec2,
-		#715ec2,
-		#845ec2,
-		#d65db1,
-		#ff6f91,
-		#ff9671,
-		#ffc75f,
-		#f9f871
-	);
+        --gradient: linear-gradient(
+                30deg,
+                #115ec2,
+                #715ec2,
+                #845ec2,
+                #d65db1,
+                #ff6f91,
+                #ff9671,
+                #ffc75f,
+                #f9f871
+        );
 }
 
 #Heading {
-	font-size: 50px;
-	animation-duration: 1s;
-	animation-name: slideinAnim;
-	animation-name: bounce;
+        font-size: 50px;
+        animation-duration: 1s;
+        animation-name: slideinAnim;
+        animation-name: bounce;
 }
 
 html {
-	height: 100%;
-	background-image: var(--gradient);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-size: 400%;
-	animation: backgroundAnimation 7s infinite alternate;
-	text-align: center;
+        height: 100%;
+        background-image: var(--gradient);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 400%;
+        animation: backgroundAnimation 7s infinite alternate;
+        text-align: center;
 }
 
 h1 {
-	font-family: 'Merriweather Sans', sans-serif;
+        font-family: 'Secular One', cursive;
 }
 
 @keyframes backgroundAnimation {
-	0% { background-position: left; }
-	100% { background-position: right; }
+        0% { background-position: left; }
+        100% { background-position: right; }
 }
 
 @keyframes slideinAnim {
-	0% {
-		margin-left: 100%;
-		width: 300%
-	}
+        0% {
+                margin-left: 100%;
+                width: 300%
+        }
 
-	100% {
-		margin-left: 0%;
-		width: 100;
-	}
+        100% {
+                margin-left: 0%;
+                width: 100;
+        }
 }
