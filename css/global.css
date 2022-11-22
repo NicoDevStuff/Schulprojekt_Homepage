@@ -49,11 +49,12 @@ div {
 button:hover {
          
          background-color: grey;
-         box-shadow: 0 25px 20px 0 rgba(0,0,0,0.24), 0 15px 35px 0 rgba(0,0,0,0.19);
+         box-shadow: 0 25px 25px 0 rgba(0,0,0,0.24), 0 15px 35px 0 rgba(0,0,0,0.19);
 }
 
 #logobutton {
-         width: 100px;
+         width: 90px;
+         align:center;
 }
 
 @keyframes backgroundAnimation {
