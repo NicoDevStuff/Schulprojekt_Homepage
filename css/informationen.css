@@ -11,7 +11,22 @@ p {
 
 table, th, td {
       border:2px solid black;
+      box-shadow: 0 10px 20px 0 rgba(0,0,0,0.05), 0 5px 25px 0 rgba(0,0,0,0.1);
+      text-shadow: 2px 2px 5px black;
+      width: 40%;
 }
+
+#table-header {
+      color:white;
+
+}
+
+#table-data {
+      color:grey;
+}
+
+
+
 #noce {
       width:50%;
       height:50%;
