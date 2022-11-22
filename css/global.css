@@ -4,23 +4,22 @@
 
 :root {
         --gradient: linear-gradient(
-                30deg,
-                #115ec2,
-                #715ec2,
-                #845ec2,
-                #d65db1,
-                #ff6f91,
-                #ff9671,
-                #ffc75f,
-                #f9f871
+                45deg,
+                #000000,
+                #04330a,
+                #085211,
+                #01780f,
+                #039414,
+                #16a103,
+                #1bc904,
+                #ffffff
         );
 }
 
 #Heading {
         font-size: 50px;
         animation-duration: 1s;
-        animation-name: slideinAnim;
-        animation-name: bounce;
+        color: #ffffff;
 }
 
 html {
@@ -37,19 +36,16 @@ h1 {
         font-family: 'Secular One', cursive;
 }
 
+button:hover {
+         background-color: green;
+}
+
+#logobutton {
+         margin: 0, 0;
+         width: 70px;
+}
+
 @keyframes backgroundAnimation {
         0% { background-position: left; }
         100% { background-position: right; }
-}
-
-@keyframes slideinAnim {
-        0% {
-                margin-left: 100%;
-                width: 300%
-        }
-
-        100% {
-                margin-left: 0%;
-                width: 100;
-        }
 }
