@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Secular+One&display=swap');
 
 :root {
-        --gradient: linear-gradient(
+        --gradient: repeating-linear-gradient(
                 45deg,
                 #051900,
                 #039414
@@ -15,7 +15,8 @@
         animation-duration: 1s;
         color: #ffffff;
         text-shadow: 10px 6px 12px rgba(0,0,0,0.40);
-        text-decoration: underline;  
+        text-decoration: underline; 
+        font-weight: bold;
 }
 
 html {
@@ -55,14 +56,14 @@ div {
 .button {
   margin-right: 10px;
   margin-left: 10px;
-  border-radius: 18px;
+  border-radius: 25px;
   border: none;
   color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
-  transition-duration: 0.2s;
+  font-size: 27px;
+  transition-duration: 0.3s;
   text-shadow: 10px 10px 10px rgba(0,0,0,0.30);
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 5px 25px 0 rgba(0,0,0,0.19);
 }
@@ -73,7 +74,7 @@ button:hover {
 }
 
 #logobutton {
-         width: 90px;
+         width: 100px;
          align:center;
 }
 

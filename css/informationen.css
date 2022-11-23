@@ -4,6 +4,13 @@
       font-size: 25px;
 }
 
+#small_heading {
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      font-size: 40px;
+      font-weight: bold;
+
+}
 
 p {
         color: black;
@@ -18,17 +25,22 @@ table, th, td {
 
 }
 
+tr:hover {
+      background-color: grey;
+}
+
 #table-header {
       color:white;
       font-weight: bold;
       font-size: 25px;
+      background-color: rgba(0,0,0,0.3);
 
 }
 
 #table-data {
       color:lightgrey;
       font-size: 20px;
-      
+      background-color: rgba(0,0,0,0.1);
 }
 
 
