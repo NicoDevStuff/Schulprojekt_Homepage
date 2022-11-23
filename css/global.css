@@ -35,8 +35,9 @@ div {
 	padding: 20px 20px 20px 20px;
 }
 
+
 .button {
-  border-radius: 10px;
+  border-radius: 18px;
   border: none;
   color: black;
   text-align: center;
@@ -44,6 +45,7 @@ div {
   display: inline-block;
   font-size: 25px;
   transition-duration: 0.2s;
+  text-shadow: 10px 10px 10px rgba(0,0,0,0.50);
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 5px 25px 0 rgba(0,0,0,0.19);
 }
 button:hover {

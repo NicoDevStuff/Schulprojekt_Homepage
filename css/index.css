@@ -1,4 +1,8 @@
-
+#clickerButton, #Github_button {
+        background-color: lightgreen;
+        font-size: 32px;
+        color: black;
+}
 
 #mainpage {
         height: 300px;
