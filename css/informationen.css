@@ -8,7 +8,7 @@
 #small_heading {
       color: white;
       text-shadow: 2px 2px 5px black;
-      font-size: 40px;
+      font-size: 50px;
       font-weight: bold;
 
 }
@@ -22,7 +22,7 @@ table, th, td {
       box-shadow: 0 10px 20px 0 rgba(0,0,0,0.05), 0 5px 25px 0 rgba(0,0,0,0.1);
       text-shadow: 2px 2px 5px black;
       width: 40%;
-      
+
 
 }
 
@@ -43,6 +43,5 @@ tr:hover {
       font-size: 20px;
       background-color: rgba(0,0,0,0.1);
 }
-
 
 
