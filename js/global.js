@@ -79,7 +79,7 @@ function spawnSnowCSS(snow_density = 200){
 
         @keyframes fall-${i} {
             ${random_yoyo_time*100}% {
-                transform: translate(${random_x_end}vw, ${random_yoyo_y}vh) scale(${random_scale});
+                transform: translate(${random_x_end}vw, ${random_yoyo_y - 50}vh) scale(${random_scale});
             }
 
             to {
