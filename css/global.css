@@ -25,13 +25,13 @@ html {
         background-repeat: repeat;
         background-size: 400%;
         background-attachment: fixed;
-        animation: backgroundAnimation 9s infinite alternate;
+        animation: backgroundAnimation 20s linear infinite;
         text-align: center;
 }
 
 @keyframes backgroundAnimation {
-        0% { background-position: left; }
-        100% { background-position: right; }
+        0%, 100% { background-position: left; }
+        50% { background-position: right; }
 }
 
 h1 {

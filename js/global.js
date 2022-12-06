@@ -73,7 +73,7 @@ function spawnSnowCSS(snow_density = 200){
         rule += `
         .${snowflake_name}:nth-child(${i}) {
             opacity: ${opacity_};
-            transform: translate(${random_x}vw, -10px) scale(${random_scale});
+            transform: translate(${random_x}vw, -100px) scale(${random_scale});
             animation: fall-${i} ${fall_duration}s ${fall_delay}s linear infinite;
         }
 
