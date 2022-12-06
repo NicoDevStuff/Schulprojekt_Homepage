@@ -1,4 +1,4 @@
-let snowflakes_count = 500;
+let snowflakes_count = 900;
 
 
 
@@ -23,7 +23,7 @@ function spawn_snow(snow_density = 200) {
     snow_density -= 1;
 
     for (let x = 0; x < snow_density; x++) {
-        let board = document.createElement('div');
+        let board = document.createElement("div");
         board.className = "snowflake";
 
         document.getElementById('snow').appendChild(board);
@@ -63,9 +63,9 @@ function spawnSnowCSS(snow_density = 200){
         let random_offset = random_range(-100000, 100000) * 0.0001;
         let random_x_end = random_x + random_offset;
         let random_x_end_yoyo = random_x + (random_offset / 2);
-        let random_yoyo_time = random_range(30000, 80000) / 100000;
+        let random_yoyo_time = random_range(30000, 1000000) / 100000;
         let random_yoyo_y = random_yoyo_time * 100;
-        let random_scale = Math.random();
+        let random_scale = Math.random()+0.1;
         let fall_duration = random_range(10, 30) * 1;
         let fall_delay = random_int(30) * -1;
         let opacity_ = Math.random();
@@ -78,12 +78,12 @@ function spawnSnowCSS(snow_density = 200){
         }
 
         @keyframes fall-${i} {
-            ${random_yoyo_time*100}% {
-                transform: translate(${random_x_end}vw, ${random_yoyo_y - 50}vh) scale(${random_scale});
+            ${random_yoyo_time*50}% {
+                transform: translate(${random_x_end}vw, ${random_yoyo_y}vh) scale(${random_scale});
             }
 
             to {
-                transform: translate(${random_x_end_yoyo}vw, 150vh) scale(${random_scale});
+                transform: translate(${random_x_end_yoyo}vw, 200vh) scale(${random_scale});
             }
 
         }

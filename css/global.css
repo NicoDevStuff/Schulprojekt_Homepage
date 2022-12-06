@@ -5,8 +5,8 @@
 :root {
         --gradient: repeating-linear-gradient(
                 45deg,
-                #051900,
-                #039414
+                #031100,
+                #02660d
         );
 }
 
@@ -17,7 +17,6 @@
         text-shadow: 10px 6px 12px rgba(0,0,0,0.40);
         text-decoration: underline;
         font-weight: bold;
-        margin-top: 10px;
 }
 
 html {
@@ -26,8 +25,13 @@ html {
         background-repeat: repeat;
         background-size: 400%;
         background-attachment: fixed;
-        animation: backgroundAnimation 15s infinite alternate;
+        animation: backgroundAnimation 9s infinite alternate;
         text-align: center;
+}
+
+@keyframes backgroundAnimation {
+        0% { background-position: left; }
+        100% { background-position: right; }
 }
 
 h1 {
@@ -36,6 +40,7 @@ h1 {
 
 div {
         padding: 20px 20px 20px 20px;
+        
 }
 
 
@@ -59,21 +64,20 @@ div {
 
 
 .button {
-  margin-right: 10px;
-  margin-left: 10px;
-  border-radius: 25px;
-  border: none;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 27px;
-  transition-duration: 0.3s;
-  text-shadow: 10px 10px 10px rgba(0,0,0,0.30);
-  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 5px 25px 0 rgba(0,0,0,0.19);
+	  margin-right: 10px;
+	  margin-left: 10px;
+	  border-radius: 25px;
+	  border: none;
+	  color: black;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 27px;
+	  transition-duration: 0.3s;
+	  text-shadow: 10px 10px 10px rgba(0,0,0,0.30);
+	  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 5px 25px 0 rgba(0,0,0,0.19);
 }
 button:hover {
-
          background-color: grey;
          box-shadow: 0 25px 25px 0 rgba(0,0,0,0.24), 0 15px 35px 0 rgba(0,0,0,0.19);
 }
@@ -81,15 +85,14 @@ button:hover {
 #logobutton {
          width: 100px;
          align:center;
+         filter: drop-shadow();
 }
 
-@keyframes backgroundAnimation {
-        0% { background-position: left; }
-        100% { background-position: right; }
-}
+
+
 
 .snowflake {
-    padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -99,4 +102,4 @@ button:hover {
     z-index: -1;
 }
 
-.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200vh; }
