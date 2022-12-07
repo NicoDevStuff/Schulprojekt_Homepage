@@ -12,16 +12,25 @@
       font-weight: bold;
 
 }
+
 #list {
 	background-color: rgba(0,0,0,0.2); 
-	width:20%; 
-	text-align:center; 
+	width: 20%; 
 	margin: 0 auto; 
 	border-radius: 60px; 
 	filter: drop-shadow(0 0 20px black);
 
 
 }
+
+#text-div {
+	background-color: rgba(0,0,0,0.1); 
+	width: 65%; 
+	margin: 0 auto; 
+	border-radius: 60px; 
+	filter: drop-shadow(0 0 20px black);
+}
+
 
 p {
         color: black;

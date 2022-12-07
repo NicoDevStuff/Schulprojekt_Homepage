@@ -13,12 +13,13 @@
 
 #Heading {
         font-size: 70px;
-        animation-duration: 1s;
         color: #ffffff;
         text-shadow: 10px 6px 12px rgba(0,0,0,0.40);
         text-decoration: underline;
         font-weight: bold;
 }
+
+
 
 
 html {
@@ -30,6 +31,8 @@ html {
         animation: backgroundAnimation 10s linear infinite;
         text-align: center;
 }
+
+
 
 @keyframes backgroundAnimation {
         0%, 100% { background-position: left; }
@@ -44,9 +47,6 @@ div {
         padding: 20px 20px 20px 20px;
         
 }
-
-
-
 
 
 
@@ -105,4 +105,4 @@ button:hover {
     z-index: -1;
 }
 
-.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200vh; }
+.container {display: flex; flex-direction: column; align-items: center; justify-content: center; height: 200vh;}
