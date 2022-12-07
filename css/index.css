@@ -8,8 +8,8 @@
 
 @keyframes dulli {
                 100%,0%{background-color: #353535; filter: drop-shadow(0 0 0px grey);}
-                25%{background-color: #999999; filter: drop-shadow(0 0 10px white);}
-                75%{background-color: #999999; filter: drop-shadow(0 0 10px white);}
+                25%, 75%{background-color: #999999; filter: drop-shadow(0 0 10px white);}
+                
 }
 
 #mainpage {
