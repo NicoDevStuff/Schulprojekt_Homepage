@@ -66,7 +66,7 @@ function spawnSnowCSS(snow_density = 200){
         let random_yoyo_time = random_range(30000, 1000000) / 100000;
         let random_yoyo_y = random_yoyo_time * 100;
         let random_scale = Math.random()+0.1;
-        let fall_duration = random_range(10, 30) * 1;
+        let fall_duration = random_range(10, 50);
         let fall_delay = random_int(30) * -1;
         let opacity_ = Math.random();
 

@@ -6,7 +6,7 @@
         --gradient: repeating-linear-gradient(
                 45deg,
                 #031100,
-                #02660d
+                #02440d
         );
 }
 
@@ -23,9 +23,9 @@ html {
         background-image: var(--gradient);
         background-size: 100%;
         background-repeat: repeat;
-        background-size: 400%;
+        background-size: 200%;
         background-attachment: fixed;
-        animation: backgroundAnimation 20s linear infinite;
+        animation: backgroundAnimation 10s linear infinite;
         text-align: center;
 }
 
@@ -57,8 +57,9 @@ div {
         margin-left: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
-        border-radius: 35px;
-        box-shadow: 0 15px 25px 0 rgba(0,0,0,0.2), 0 10px 30px 0 rgba(0,0,0,0.19);
+        border-radius: 45px;
+        border: 2px solid black;
+        filter: saturate(120%) drop-shadow(0 0 20px rgba(255,255,255,0.40));
 
 }
 
@@ -96,9 +97,9 @@ button:hover {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: linear-gradient(white, white);
-    border-radius: 50%;
-    filter: drop-shadow(0 0 10px white);
+    background: white;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 10px yellow);
     z-index: -1;
 }
 
